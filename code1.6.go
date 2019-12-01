@@ -9,7 +9,7 @@ func count() {
 		time.Sleep(time.Millisecond * 1)
 	}
 }
-func main() {
+func main4() {
 	go count()
 	time.Sleep(time.Millisecond * 2)
 	fmt.Println("Hello World")
