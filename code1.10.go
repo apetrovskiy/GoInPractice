@@ -5,7 +5,7 @@ import "fmt"
 func getName() string {
 	return "World!"
 }
-func main() {
+func main,() {
 	name := getName()
 	fmt.Println("Hello ", name)
 }
